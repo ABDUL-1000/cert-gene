@@ -1,0 +1,38 @@
+#certificateContainer {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  #certificateTemplate {
+    width: 100%;
+  }
+  
+  #certStudentName {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%); /* Center the text if needed */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #000; /* Adjust color */
+  }
+  
+  #certDescription {
+    position: absolute;
+    top: 60%; /* Adjust to position below the name */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px; /* Adjust font size as needed */
+    color: #000;
+  }
+  
+  #certSerialNumber {
+    position: absolute;
+    top: 18%; /* Adjust as needed */
+    right: 10%; /* Align to the right of the image */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #000;
+  }
+  
